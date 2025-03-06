@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Lato", sans-serif;
+
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding-top: 20px;
+    gap:20px
+}
+
+
+.input-text {
+    width: 200px;
+    font-size: 20px;
+    padding: 5px;
+    transition: width 0.3s ease; 
+    border: none; 
+    border-radius: 5px;
+}
+
+.input-text:focus { 
+    width: 300px;
+}
+
+#btn-add-task{
+    margin-top: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+#btn-add-task:hover{
+    background-color: white;
+}
+
+#task-list{
+    list-style: none;
+}
+
+.list-item{
+    border: .5px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
